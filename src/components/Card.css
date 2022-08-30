@@ -1,0 +1,96 @@
+.card {
+    width: 120px;
+    height: 135px;
+    border: 1px solid black;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../public/icons.png');
+    background-repeat: no-repeat;
+    background-size: 700px;
+}
+
+.card-image-1 {
+    background-position: 0 0;
+}
+
+.card-image-2 {
+    background-position: -117px 0;
+}
+
+.card-image-3 {
+    background-position: -235px 0;
+}
+
+.card-image-4 {
+    background-position: -352px 0;
+}
+
+.card-image-5 {
+    background-position: -470px 0;
+}
+
+.card-image-6 {
+    background-position: -589px 0;
+}
+
+.card-image-7 {
+    background-position: 0 -135px;
+}
+
+.card-image-8 {
+    background-position: -117px -135px;
+}
+
+.card-image-9 {
+    background-position: -235px -135px;
+}
+
+.card-image-10 {
+    background-position: -352px -135px;
+}
+
+.card-image-11 {
+    background-position: -470px -135px;
+}
+
+.card-image-12 {
+    background-position: -589px -135px;
+}
+
+.card-image-13 {
+    background-position: 0 -267px;
+}
+
+.card-image-14 {
+    background-position: -117px -267px;
+}
+
+.card-image-15 {
+    background-position: -235px -267px;
+}
+
+.card-image-16 {
+    background-position: -352px -267px;
+}
+
+.card-image-17 {
+    background-position: -470px -267px;
+}
+
+.card-image-18 {
+    background-position: -589px -267px;
+}
+
+.card-cover {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../public/cover.png');
+    background-repeat: no-repeat;
+    background-size: 110px 120px;
+    background-position: 0 20px;
+}

@@ -1,15 +1,42 @@
 .card {
+    position: relative;
     width: 120px;
     height: 135px;
     border: 1px solid black;
 }
 
 .card-image {
+    position: absolute;
     width: 100%;
     height: 100%;
     background-image: url('../../public/icons.png');
     background-repeat: no-repeat;
     background-size: 700px;
+    transform: rotateY(90deg);
+    transition: all ease-in .2s;
+}
+
+.flip .card-image {
+    transform: rotateY(0);
+    transition-delay: .2s;
+}
+
+.card-cover {
+    /*display: none;*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../public/cover.png');
+    background-repeat: no-repeat;
+    background-size: 110px 120px;
+    background-position: 5px 7px;
+    transition: all ease-in .2s;
+    transition-delay: .2s;
+}
+
+.flip .card-cover {
+    transform: rotateY(-90deg);
+    transition-delay: 0s;
 }
 
 .card-image-1 {
@@ -82,15 +109,4 @@
 
 .card-image-18 {
     background-position: -589px -267px;
-}
-
-.card-cover {
-    display: none;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: url('../../public/cover.png');
-    background-repeat: no-repeat;
-    background-size: 110px 120px;
-    background-position: 0 20px;
 }

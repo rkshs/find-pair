@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Timer component snapshot renders correctly, falsy values 1`] = `
+<span
+  className="time"
+>
+  <span
+    className="minute"
+  >
+    00
+  </span>
+  <span>
+    :
+  </span>
+  <span
+    className="second"
+  >
+    00
+  </span>
+</span>
+`;
+
+exports[`Timer component snapshot renders correctly, truthy values 1`] = `
+<span
+  className="time"
+>
+  <span
+    className="minute"
+  >
+    00
+  </span>
+  <span>
+    :
+  </span>
+  <span
+    className="second"
+  >
+    00
+  </span>
+</span>
+`;

@@ -1,0 +1,823 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`main App component match snapshot 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <div
+      class="container"
+    >
+      <h1>
+        Find a pair game
+      </h1>
+      <div
+        class="counters"
+      >
+        <span>
+          Turns: 
+          0
+        </span>
+        <button>
+          New game
+        </button>
+        <span>
+          Time:
+          <span
+            class="time"
+          >
+            <span
+              class="minute"
+            >
+              00
+            </span>
+            <span>
+              :
+            </span>
+            <span
+              class="second"
+            >
+              00
+            </span>
+          </span>
+        </span>
+      </div>
+      <div
+        class="grid"
+      >
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-11"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-13"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-14"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-16"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-8"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-6"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-8"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-18"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-1"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-9"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-6"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-2"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-9"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-7"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-13"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-3"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-11"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-5"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-17"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-15"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-1"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-12"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-15"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-2"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-14"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-7"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-3"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-17"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-12"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-10"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-4"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-18"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-4"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-16"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-5"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-10"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`match snapshot 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <div
+      class="container"
+    >
+      <h1>
+        Find a pair game
+      </h1>
+      <div
+        class="counters"
+      >
+        <span>
+          Turns: 
+          0
+        </span>
+        <button>
+          New game
+        </button>
+        <span>
+          Time:
+          <span
+            class="time"
+          >
+            <span
+              class="minute"
+            >
+              00
+            </span>
+            <span>
+              :
+            </span>
+            <span
+              class="second"
+            >
+              00
+            </span>
+          </span>
+        </span>
+      </div>
+      <div
+        class="grid"
+      >
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-11"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-11"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-14"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-9"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-3"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-9"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-1"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-8"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-4"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-3"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-7"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-17"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-18"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-15"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-16"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-16"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-4"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-6"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-6"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-12"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-14"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-18"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-15"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-2"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-17"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-7"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-2"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-13"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-13"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-5"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-5"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-1"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-10"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-8"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-12"
+          />
+        </div>
+        <div
+          class="card  "
+        >
+          <div
+            class="card-cover"
+          />
+          <div
+            class="card-image card-image-10"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

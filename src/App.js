@@ -3,26 +3,26 @@ import Card from './components/Card'
 import Timer from './components/Timer'
 import './App.css';
 
- const cardImages = [
-     {'className': 'card-image-1', matched: false},
-     {'className': 'card-image-2', matched: false},
-     {'className': 'card-image-3', matched: false},
-     {'className': 'card-image-4', matched: false},
-     {'className': 'card-image-5', matched: false},
-     {'className': 'card-image-6', matched: false},
-     {'className': 'card-image-7', matched: false},
-     {'className': 'card-image-8', matched: false},
-     {'className': 'card-image-9', matched: false},
-     {'className': 'card-image-10', matched: false},
-     {'className': 'card-image-11', matched: false},
-     {'className': 'card-image-12', matched: false},
-     {'className': 'card-image-13', matched: false},
-     {'className': 'card-image-14', matched: false},
-     {'className': 'card-image-15', matched: false},
-     {'className': 'card-image-16', matched: false},
-     {'className': 'card-image-17', matched: false},
-     {'className': 'card-image-18', matched: false},
- ]
+const cardImages = [
+    {'className': 'card-image-1', matched: false},
+    {'className': 'card-image-2', matched: false},
+    {'className': 'card-image-3', matched: false},
+    {'className': 'card-image-4', matched: false},
+    {'className': 'card-image-5', matched: false},
+    {'className': 'card-image-6', matched: false},
+    {'className': 'card-image-7', matched: false},
+    {'className': 'card-image-8', matched: false},
+    {'className': 'card-image-9', matched: false},
+    {'className': 'card-image-10', matched: false},
+    {'className': 'card-image-11', matched: false},
+    {'className': 'card-image-12', matched: false},
+    {'className': 'card-image-13', matched: false},
+    {'className': 'card-image-14', matched: false},
+    {'className': 'card-image-15', matched: false},
+    {'className': 'card-image-16', matched: false},
+    {'className': 'card-image-17', matched: false},
+    {'className': 'card-image-18', matched: false},
+]
 
 function App() {
 
@@ -91,6 +91,8 @@ function App() {
     useEffect(() => {
         shuffle();
     }, [])
+
+    console.log(cards)
 
     return (
     <div className="App">

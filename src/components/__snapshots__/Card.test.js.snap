@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component snapshot renders correctly, falsy values 1`] = `
+<div
+  className="card  "
+>
+  <div
+    className="card-cover"
+    onClick={[Function]}
+  />
+  <div
+    className="card-image "
+  />
+</div>
+`;
+
+exports[`Card component snapshot renders correctly, truthy values 1`] = `
+<div
+  className="card  "
+>
+  <div
+    className="card-cover"
+    onClick={[Function]}
+  />
+  <div
+    className="card-image card-image-11"
+  />
+</div>
+`;

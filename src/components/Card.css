@@ -2,7 +2,12 @@
     position: relative;
     width: 120px;
     height: 135px;
-    border: 1px solid black;
+    transition: all ease-in 1s 1.5s;
+}
+
+.card.matched {
+    opacity: 0;
+    user-select: none;
 }
 
 .card-image {
@@ -40,73 +45,73 @@
 }
 
 .card-image-1 {
-    background-position: 0 0;
+    background-position: 0 -9px;
 }
 
 .card-image-2 {
-    background-position: -117px 0;
+    background-position: -117px -9px;
 }
 
 .card-image-3 {
-    background-position: -235px 0;
+    background-position: -235px -9px;
 }
 
 .card-image-4 {
-    background-position: -352px 0;
+    background-position: -352px -9px;
 }
 
 .card-image-5 {
-    background-position: -470px 0;
+    background-position: -470px -9px;
 }
 
 .card-image-6 {
-    background-position: -589px 0;
+    background-position: -589px -9px;
 }
 
 .card-image-7 {
-    background-position: 0 -135px;
+    background-position: 0 -140px;
 }
 
 .card-image-8 {
-    background-position: -117px -135px;
+    background-position: -117px -140px;
 }
 
 .card-image-9 {
-    background-position: -235px -135px;
+    background-position: -235px -140px;
 }
 
 .card-image-10 {
-    background-position: -352px -135px;
+    background-position: -352px -140px;
 }
 
 .card-image-11 {
-    background-position: -470px -135px;
+    background-position: -470px -140px;
 }
 
 .card-image-12 {
-    background-position: -589px -135px;
+    background-position: -589px -140px;
 }
 
 .card-image-13 {
-    background-position: 0 -267px;
+    background-position: 0 -271px;
 }
 
 .card-image-14 {
-    background-position: -117px -267px;
+    background-position: -117px -271px;
 }
 
 .card-image-15 {
-    background-position: -235px -267px;
+    background-position: -235px -271px;
 }
 
 .card-image-16 {
-    background-position: -352px -267px;
+    background-position: -352px -271px;
 }
 
 .card-image-17 {
-    background-position: -470px -267px;
+    background-position: -470px -271px;
 }
 
 .card-image-18 {
-    background-position: -589px -267px;
+    background-position: -589px -271px;
 }

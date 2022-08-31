@@ -1,5 +1,6 @@
-import {useEffect, useState} from 'react';
+import {useEffect, useState, useRef} from 'react';
 import Card from './components/Card'
+import Timer from './components/Timer'
 import './App.css';
 
  const cardImages = [
@@ -30,6 +31,12 @@ function App() {
     const [chosenOne, setChosenOne] = useState(null);
     const [chosenTwo, setChosenTwo] = useState(null);
     const [disabled, setDisabled] = useState(false);
+    const [timer, setTimer] = useState({
+        started: false,
+        reset: false
+    });
+
+    const timerRef = useRef(null);
 
 
     const shuffle = () => {
@@ -43,9 +50,13 @@ function App() {
         setChosenTwo(null);
         setBunchCards(newBunchCards);
         setTurn(0)
+        timerRef.current.resetTimer();
     }
 
     const setChoose = (card) => {
+        if (!timer.started) {
+            setTimer(() => ({started: true}));
+        }
         chosenOne ? setChosenTwo(card) : setChosenOne(card);
     }
 
@@ -65,7 +76,7 @@ function App() {
                 })
                 reseter();
             } else {
-                setTimeout(() => reseter(), 1000);
+                setTimeout(() => reseter(), 1500);
             }
         }
     }, [chosenOne, chosenTwo])
@@ -83,23 +94,32 @@ function App() {
 
     return (
     <div className="App">
-        <h1>Find a pair game</h1>
-        <div>
-            <button onClick={shuffle}>New game</button>
-            <span>Turns: {turn}</span>
-        </div>
-        <div className='grid'>
-            {
-                cards.map(card => (
-                    <Card
-                        key={card.id}
-                        card={card}
-                        setChoose={setChoose}
-                        flip={card === chosenOne || card === chosenTwo || card.matched}
-                        disabled={disabled}
+        <div className="container">
+            <h1>Find a pair game</h1>
+            <div className="counters">
+                <span>Turns: {turn}</span>
+                <button onClick={shuffle}>New game</button>
+                <span>
+                    Time:
+                    <Timer
+                        timerStarted={timer.started}
+                        ref={timerRef}
                     />
-                ))
-            }
+                </span>
+            </div>
+            <div className='grid'>
+                {
+                    cards.map(card => (
+                        <Card
+                            key={card.id}
+                            card={card}
+                            setChoose={setChoose}
+                            flip={card === chosenOne || card === chosenTwo || card.matched}
+                            disabled={disabled}
+                        />
+                    ))
+                }
+            </div>
         </div>
     </div>
     );

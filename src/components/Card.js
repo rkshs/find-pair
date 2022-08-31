@@ -9,7 +9,7 @@ export default function Card({ card, setChoose, flip, disabled }) {
     }
 
     return (
-        <div key={card.id} className={`card ${flip ? 'flip' : ''}`}>
+        <div key={card.id} className={`card ${flip ? 'flip' : ''} ${card.matched ? 'matched' : ''}`}>
             <div className='card-cover' onClick={clickHandler} />
             <div className={`card-image ${card.className}`} />
         </div>

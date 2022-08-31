@@ -1,12 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
+  min-height: 100vh;
+  background: #15052a;
+  color: #fff;
+}
+
+.container {
+  width: 720px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
+}
+
+.counters {
+  display: flex;
+  margin: 15px 0;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.counters button{
+  background: transparent;
+  color: #fff;
+  padding: 8px 16px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all ease-in .15s;
+}
+
+.counters button:hover {
+  background: #fff;
+  color: #15052a;
 }
 
 .grid {
   margin-top: 20px;
   display: grid;
   grid-template-columns: 120px 120px 120px 120px 120px 120px;
-  grid-gap: 20px;
 }
 
 
